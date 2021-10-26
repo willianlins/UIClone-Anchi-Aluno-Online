@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 16px;
+}
+
+:root{
+
+  --color-primary-300: rgb(1, 42, 82);
+  --color-primary-200: #036;
+  --color-primary-50: rgb(1, 81, 161);
+
+
+  --color-border-link-100: #edb700;
+
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
