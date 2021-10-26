@@ -15,6 +15,7 @@ interface MenuTitleProps {
 export function MenuTitle({ contentTitleMenu, icon: Icon, children,  activeArrowDown = true }: MenuTitleProps) {
   const [svgPropRotate, setSvgPropRotate] = useState(0);
   const [visible, setVisible] = useState('none');
+  
 
   const isVisible = () => {
     visible === 'none' ? setVisible('block') : setVisible('none');

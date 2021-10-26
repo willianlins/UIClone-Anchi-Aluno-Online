@@ -48,8 +48,8 @@ export const ContentMenuMain = styled.ul<ContentMenuMainProps>`
 
 export const ContentMenuSecudary = styled.ul<ContentMenuSecudaryProps>`
  
- ${props => props.visible === 'none' ? `display: none;` : `display: block;  transition: all .3s linear;`}
+ /* ${props => props.visible === 'none' ? `display: none;` : `display: block;  transition: all .3s linear;`} */
 
-  /* display:${props => props.visible}; */
+  display:${props => props.visible};
 `;
 

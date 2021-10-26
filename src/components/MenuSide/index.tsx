@@ -19,15 +19,16 @@ import { ImExit } from 'react-icons/im';
 
 
 
-export function MenuSide() {
 
+export function MenuSide() {
+  
   return (
     <Container>
       <ContentImg>
         <img src={logo} alt="Anchieta Logo" />
       </ContentImg>
       <ContentMenu>
-
+        
         <MenuTitle contentTitleMenu="Avisos" icon={TiWarningOutline}>
           <MenuItem itemTitle="Grupos - Aulas Presenciais" link="http://localhost:3000/" iconItem={VscArrowSwap} />
           <MenuItem itemTitle="Avisos/Mural" link="http://localhost:3000/" iconItem={TiWarningOutline} />
