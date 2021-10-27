@@ -4,30 +4,32 @@ import '../../styles/global.css'
 
 export const Container = styled.div`
   width: 100%;
-  height: 70px;
-  border-bottom: 1px solid #afb4b9;
+  height: 65px;
+  border-bottom: 1px solid #accc;
   display:flex;
+  flex: 1;
   flex-direction: row;
   justify-content: flex-end;
-  background-color: #ccc;
-  
+  position: fixed;
+  top: 0;
+  z-index: 99;
+
   span, strong{ 
    font-size: 0.813rem;
-   color: #afb4b9;
+   color: #666666;
   }
 
 `;
 
 export const ContentLeft = styled.div`
   width: 225px;
-  height: 45px;
+  height: 40px;
   padding: 10px;
-  background-color: #e2e2e2;  
   text-transform: uppercase;
   display:flex;
   gap: 0.938rem;
   align-items: center;
-  border-right: 1px solid #afb4b9;
+  border-right: 1px solid #ccc;
 
   img { 
     width: 45px;
@@ -55,14 +57,14 @@ export const ContentLeft = styled.div`
 
 export const ContentRight = styled.div`
   width: 320px;
-  height: 45px;
+  height: 40px;
   padding: 10px;
   display:flex;
   flex-direction:column;
-  
+  justify-content: center;
+  margin-right: 60px;
   span:first-child {
     text-transform: uppercase;
   }
 
-  background-color: #e2e2e2; 
 `;

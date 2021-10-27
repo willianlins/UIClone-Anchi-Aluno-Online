@@ -14,7 +14,7 @@ interface ContentMenuSecudaryProps {
 
 export const ContentMenuMain = styled.ul<ContentMenuMainProps>` 
 > li > div {
-  padding: 0.75rem 0; 
+  padding: 0.70rem 0; 
   display: flex;
   position: relative;
   cursor: pointer;
