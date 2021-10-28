@@ -15,7 +15,7 @@ export function TopHeader() {
       </ContentLeft>
       <ContentRight>
         <span><strong>264- Bacharelado em ciência...</strong></span>
-        <span><strong>Série:</strong> 7 <strong>Período:</strong> 2021/2<strong>Turma:</strong> CCO-1/2-A-N</span>
+        <span><strong>Série:</strong> 7 <strong>Período:</strong> 2021/2 <strong>Turma:</strong> CCO-1/2-A-N</span>
         <span><strong>Status:</strong> Ativo</span>
       </ContentRight>
     </Container>

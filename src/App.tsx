@@ -6,9 +6,12 @@ import { Avisos } from './pages/Avisos';
 export function App() {
   return (
     <>
-      <MenuSide />
       <TopHeader />
-      <Avisos />
+      <div className="container">
+        <MenuSide />
+        <Avisos />
+
+      </div>
     </>
   );
 }

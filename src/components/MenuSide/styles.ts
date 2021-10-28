@@ -6,8 +6,9 @@ export const Container = styled.div`
   height: 100vh;
   background-color: var(--color-primary-200);
   color: #fff;
-  position: fixed;
   z-index: 100;
+  position: relative;
+  float: left;
 `;
 
 export const ContentImg = styled.div`

@@ -46,7 +46,7 @@ export const ContentLeft = styled.div`
     text-transform: none;
     font-size: 0.813rem;
     font-weight: 700;
-    color: var(  --color-primary-50);
+    
   }
 
   a:hover{
