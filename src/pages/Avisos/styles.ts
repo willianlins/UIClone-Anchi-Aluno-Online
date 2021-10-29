@@ -52,6 +52,10 @@ export const Content = styled.div`
       font-size: 13px;
       margin-left: 5px;
       width: 100%;
+
+      :focus{
+        outline: 0;   
+      }
     }
 
     svg{
