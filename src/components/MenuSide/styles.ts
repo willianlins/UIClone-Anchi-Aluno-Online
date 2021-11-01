@@ -9,6 +9,14 @@ export const Container = styled.div`
   z-index: 100;
   position: relative;
   float: left;
+
+  svg{
+    width: 25px;
+    height: 25px;
+    margin-top: 1rem;
+    margin-left: 13px;
+    cursor: pointer;
+  }
 `;
 
 export const ContentImg = styled.div`
@@ -17,13 +25,12 @@ export const ContentImg = styled.div`
 
   img {
     width: 100%;
-    margin-top: 1rem;
   }
 `;
 
 export const ContentMenu = styled.div`
   width: 100%;
-  margin-top: 2rem; 
+  margin-top: 1rem; 
   
 `;
 

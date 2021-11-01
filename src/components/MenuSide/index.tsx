@@ -16,19 +16,30 @@ import { IoMdCash, IoMdBarcode } from 'react-icons/io';
 import { MdOutlineWatchLater } from 'react-icons/md';
 import { GiWorld } from 'react-icons/gi';
 import { ImExit } from 'react-icons/im';
+import { FiMenu } from 'react-icons//fi';
+import { useState } from 'react';
 
 
 
 
 export function MenuSide() {
-  
+
+  const [dropMenu, setDropMenu] = useState(!false);
+
+  const drop = () => {
+    dropMenu === false ? setDropMenu(true) : setDropMenu(false);
+    console.log('dropMenu =' + dropMenu)
+  }
+
+
   return (
     <Container>
+      <FiMenu onClick={drop}/>
       <ContentImg>
         <img src={logo} alt="Anchieta Logo" />
       </ContentImg>
       <ContentMenu>
-        
+
         <MenuTitle contentTitleMenu="Avisos" icon={TiWarningOutline}>
           <MenuItem itemTitle="Grupos - Aulas Presenciais" link="http://localhost:3000/" iconItem={VscArrowSwap} />
           <MenuItem itemTitle="Avisos/Mural" link="http://localhost:3000/" iconItem={TiWarningOutline} />
